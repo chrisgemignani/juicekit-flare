@@ -248,7 +248,7 @@ public class ScaleBinding extends Scale
 
   public function set ordinals(ord:Array):void {
     _ordinals = ord;
-    if (ScaleType.isOrdinal(_scaleType)) {
+    if (ScaleType.isOrdinal(scaleType)) {
       _stats = null;
       _scale = null;
     }
